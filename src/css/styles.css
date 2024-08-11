@@ -1,0 +1,111 @@
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1280px; /* largura máxima/body assumir o tamanho máximo informado */
+  margin: 0 auto; /* tirar margem da vertical e adicionar margem automatica na horizontal pra responsividade*/
+}
+
+.carrossel {
+  position: fixed; /* fixar a posição das imagens, tirando scroll */
+  top: 0;
+  left: 0; /* grudar a imagem na esquerda e acima */
+  width: 100%; /* ocupar toda a tela, independente da resolução */
+  z-index: -1; /* jogar para trás */
+}
+
+.informacoes {
+  display: none; /* não mostrar todos os textos, pois cada uma ficará em uma pagina */
+}
+
+.informacoes.ativa {
+  display: block; /* mostrar elemento */
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column; /* elemento um embaixo do outro/uma coluna */
+  justify-content: space-evenly; /* espaçar os elementos de forma uniforme */
+  min-height: 100vh; /* altura mínima, para ter espaço pra espaçar os elementos*/
+}
+
+.informacoes h1 {
+  font-size: 35px;
+  color: #ffffff;
+  margin-bottom: 80px; /* dar margem embaixo */
+  font-family: "GOT";
+  letter-spacing: 8px; /* espaçamento entre as letras */
+}
+
+@font-face {
+  font-family: "GOT";
+  src: url(../fonts/GOT.ttf);
+}
+
+.informacoes .descricao {
+  width: 49%; /* largura vai até metade da tela */
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 40px; /*altura entre as linhas */
+  height: 300px; /*aumenta a altura para dar espaço ao texto - essa e demais propriedades abaixo usar somente se texto for muito grande */
+  overflow: auto; /* se tiver mais texto, cria uma rolagem (scroll) */
+  padding-right: 15px; /* espaçamento interno na direita */
+}
+
+.botoes-carrossel {
+  display: flex;
+  justify-content: center; /* alinhar os botoes ao centro */
+  gap: 20px; /* espaçamento entre botoes */
+}
+
+.botoes-carrossel .botao {
+  background-color: #ffffff;
+  width: 15px; /*largura */
+  height: 15px; /*altura */
+  border-radius: 50%; /* arredondar */
+  border: 2px solid transparent; /* define a borda, tirando a borda padrão do html */
+  cursor: pointer; /* muda o cursor do mouse para clicavel */
+  border-color: #ffffff;
+}
+
+.botoes-carrossel .botao.selecionado {
+  background-color: #1d8346;
+}
+
+.imagem {
+  width: 100vw; /* ajusta a largura do dispositivo */
+  height: 100vh; /* ajusta a altura do dispositivo */
+  object-fit: cover; /* ocupar tudo tirando a distorção */
+  display: none; /* não mostra todas as imagens, só a ativa */
+}
+
+.imagem.ativa {
+  display: block;
+  animation: mudarImagem 0.7s;
+}
+
+@keyframes mudarImagem {
+  from {
+    /* inicio */
+    opacity: 0.85;
+  }
+  to {
+    /* fim */
+    opacity: 1;
+  }
+}
+
+main::after {
+  /* depois do main, será criado um pseudo elemento, tipo uma div (não existe do html) aqui serve para as propriedades do efeito de sombra */
+  content: "";
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 0.05926120448179273) 50%,
+    rgba(0, 0, 0, 1) 90%
+  );
+  z-index: -1;
+}

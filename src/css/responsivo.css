@@ -1,0 +1,44 @@
+/* serve para que o site fique responsivo em vários aparelhos com tamanhos diferentes */
+
+@media (max-width: 1280px) {
+  /* quando a largura maxima for <= ao valor informado, tudo que estiver aqui será aplicado */
+  body {
+    padding: 0 40px; /* dar um espaçamento inteiro para não ficar grudado na margem da tela */
+    background: linear-gradient(
+      120deg,
+      rgba(0, 0, 0, 1) 10%,
+      rgba(0, 0, 0, 0.05926120448179273) 50%,
+      rgba(0, 0, 0, 1) 90%
+    ); /* melhora o efeito nas telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .informacoes.ativa {
+    /* alinha o texto no centro, melhor visualizacao em telas menores */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .informacoes .descricao {
+    /* centraliza o texto */
+    width: 60%; /* aqui não precisa ser 100% */
+    text-align: center;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    padding: 40px;
+  }
+
+  .informacoes .descricao {
+    width: 100%; /* aumenta a largura pro texto ocupar o máximo que tem que pra ocupar na tela */
+  }
+
+  .conteudo {
+    min-height: 70vh; /* estipula altura minima pra melhor visualização */
+    gap: 50px; /* da um distanciamento dos conteudos */
+  }
+}

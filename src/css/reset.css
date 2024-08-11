@@ -1,0 +1,8 @@
+/* serve para resetar as definições padrões do
+navegador */
+
+* {
+  margin: 0; /* margem externa */
+  padding: 0; /* preenchimento/espaçamento interno - alterar espaçamento entre o conteúdo e a borda */
+  box-sizing: border-box; /* dimensionamento de caixa: borda da caixa - levar em conta a borda, facilitando o trabalho com as caixas*/
+}
