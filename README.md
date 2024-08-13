@@ -1,4 +1,4 @@
-## 👾 Site desenvolvido na "Semana do Zero ao Programador Contratado" da Dev em Dobro. <br>
+## 👾 Projeto desenvolvido na "Semana do Zero ao Programador Contratado" da Dev em Dobro. <br>
 
 ### 📌 Proposta do projeto:
 
