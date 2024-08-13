@@ -26,7 +26,7 @@ O JS não está refatorado, pois comprometeria meus comentários.
 
 ### 📌 Visualizar o projeto:
 
-[Site](https://danvasquesc.github.io/projeto-carrossel-devemdobro/)
+[Clique aqui!](https://danvasquesc.github.io/projeto-carrossel-devemdobro/)
 
 ---
 
