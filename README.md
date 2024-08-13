@@ -1,8 +1,12 @@
-## 👾 Landing Page desenvolvido na live "Zero a Programação" da Rocketseat. <br>
+## 👾 Site desenvolvido na "Semana do Zero ao Programador Contratado" da Dev em Dobro. <br>
 
 ### 📌 Proposta do projeto:
 
-A proposta apresentada pela Rocketseat na live "Zero a Programação" foi a utilização da editor 'Front-end Editor' para compreender princípios básicos e inicias do HTML e CCSS, sem utilização do JavaScript. Decidi aplicar os conceitos simulando um site que está vendendo um curso de Algoritmo e Lógica de Programação, linkando o contato do cliente com a empresa via WhatsApp.
+O evento ocorreu do 05/08 ao 11/08, onde foi feito, além das lives sobre carreira, três aulas utilizando HTML, CSS e JavaScript.
+
+A proposta foi a construção de um carrossel com o tema dos dragões de House of the Dragon. sendo a primeira aula a apresentação de conceitos e prática do HTML, a segunda aula de CSS e a terceira aula de JavaScript. 
+Todo o código é composto por comentários feitos por mim, a partir das aulas, para estudo. Não pretendo apagar. 
+O JS não está refatorado, pois comprometeria meus comentários. 
 
 <br>
 
@@ -10,20 +14,19 @@ A proposta apresentada pela Rocketseat na live "Zero a Programação" foi a util
 
 ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/-JavaScript-fffd09?style=for-the-badge&logo=javascript&logoColor=black)
 
 <br>
 
 ### 📌 Editor utilizado:
 
-![Front-end Editor](https://img.shields.io/badge/Front_end_Editor-6eff51?style=for-the-badge&logo=front%20end%20editor&logoColor=white)
-
-O benefício deste editor é que permite a vinculação automática do HTML e CSS, sem necessidade de linkar um ao outro com código. Entretanto, para criação de uma page no github, será necessário linkar no documento index.html.
+![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge)
 
 <br>
 
-### 📌 Visualizar meu projeto:
+### 📌 Visualizar o projeto:
 
-[Landing Page](https://danvasquesc.github.io/zero-a-programacao-rocketseat)
+[Site](https://danvasquesc.github.io/projeto-carrossel-devemdobro/)
 
 ---
 
