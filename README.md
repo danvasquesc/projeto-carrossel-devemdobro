@@ -1,4 +1,34 @@
-## 👾 Projeto desenvolvido na "Semana do Zero ao Programador Contratado" da Dev em Dobro. <br>
+# :open_file_folder: Projeto Carrossel de Dragões. 
+<br>
+
+## 📌 Introdução
+O projeto foi desenvolvido durante as lives da "Semana do Zero ao Programador Contratado" da Dev em Dobro, ocorrida de 05/08 a 11/08. O objetivo principal foi criar um carrossel interativo de imagens e informações sobre dragões da série House of the Dragon. Este projeto envolveu práticas com HTML, CSS e JavaScript, fornecendo uma abordagem prática para esses conceitos.
+
+<br>
+
+## 📌 Objetivo
+O carrossel exibe imagens de dragões com informações detalhadas sobre cada um. A principal funcionalidade inclui a visualização das imagens em um formato de carrossel, onde cada imagem pode ser acompanhada por informações correspondentes. O carrossel é projetado para melhorar a experiência do usuário com animações e uma interface responsiva.
+
+<br>
+
+## 📌 Como o usuário deve usar 
+  1. Visualizar o Carrossel: As imagens dos dragões aparecem em tela cheia, independente do dispositivo usado. 
+  2. Navegar Entre Dragões: Use os botões de navegação (bolinhas) para mudar a imagem e ver as informações correspondentes à cada dragão.
+  3. Informações: A descrição do dragão atual é exibida abaixo da imagem.
+
+<br>
+
+ ## 📌 Estrutura
+  1. HTML:
+  - Contém uma estrutura básica para o carrossel e informações dos dragões.
+  - Imagens são inseridas com a classe `imagem` e a imagem ativa é marcada com `ativa`.
+  - Informações dos dragões são estruturadas dentro de div com a classe `informacoes`, e a ativa é mostrada através da classe `ativa`.
+
+
+
+
+
+
 
 ### 📌 Proposta do projeto:
 
