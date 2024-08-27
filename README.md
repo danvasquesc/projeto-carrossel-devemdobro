@@ -19,17 +19,17 @@ O objetivo do carrossel é exibir imagens de dragões acompanhadas de informaç�
 <br>
 
  ## 📌 Estrutura
-  1. HTML
+  1. **HTML**
   - Contém uma estrutura básica para o carrossel e as informações dos dragões.
   - As imagens são inseridas com a classe `imagem`, e a imagem ativa é marcada com a classe `ativa`.
   - As informações dos dragões são estruturadas dentro de uma `div` com a classe `informacoes`, e a descrição ativa também é identificada pela classe `ativa`.
 
-  2. CSS
+  2. **CSS**
   - Reset.css: O reset foi aplicado para remover as configurações padrão dos navegadores, garantindo que o estilo do carrossel seja uniforme em diferentes plataformas.
   - Styles.css: Este arquivo contém as regras de estilo principais para o carrossel, incluindo cores, fontes e animações.
   - Responsivo.css: Foram incluídas as regras de estilo para garantir que o carrossel seja totalmente responsivo, adaptando-se a diferentes tamanhos de tela, em diferentes     dispositivos.
 
-  3. JavaScript
+  3. **JavaScript**
   - Index.js: Este arquivo controla a lógica do carrossel, permitindo a navegação entre as imagens e a atualização das informações correspondentes.
 
 <br>
