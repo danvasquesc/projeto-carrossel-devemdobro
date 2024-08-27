@@ -2,12 +2,12 @@
 <br>
 
 ## 📌 Introdução
-O projeto foi desenvolvido durante as lives da "Semana do Zero ao Programador Contratado" da Dev em Dobro, ocorrida de 05/08 a 11/08. O objetivo principal foi criar um carrossel interativo de imagens e informações sobre dragões da série House of the Dragon. Este projeto envolveu práticas com HTML, CSS e JavaScript, fornecendo uma abordagem prática para esses conceitos.
+O projeto foi desenvolvido durante as lives da "Semana do Zero ao Programador Contratado" da Dev em Dobro, ocorrida de 05/08 a 11/08. A proposta foi criar um carrossel interativo de imagens e informações sobre dragões da série House of the Dragon. Este projeto envolveu práticas com HTML, CSS e JavaScript, oferecendo uma abordagem prática para esses conceitos.
 
 <br>
 
 ## 📌 Objetivo
-O carrossel exibe imagens de dragões com informações detalhadas sobre cada um. A principal funcionalidade inclui a visualização das imagens em um formato de carrossel, onde cada imagem pode ser acompanhada por informações correspondentes. O carrossel é projetado para melhorar a experiência do usuário com animações e uma interface responsiva.
+O objetivo do carrossel é exibir imagens de dragões acompanhadas de informações detalhadas sobre cada um deles. A principal funcionalidade inclui a visualização das imagens em um formato de carrossel, permitindo que o usuário navegue entre os dragões e visualize as descrições correspondentes. O carrossel foi projetado para melhorar a experiência do usuário com animações e uma interface responsiva.
 
 <br>
 
@@ -19,44 +19,46 @@ O carrossel exibe imagens de dragões com informações detalhadas sobre cada um
 <br>
 
  ## 📌 Estrutura
-  1. HTML:
-  - Contém uma estrutura básica para o carrossel e informações dos dragões.
-  - Imagens são inseridas com a classe `imagem` e a imagem ativa é marcada com `ativa`.
-  - Informações dos dragões são estruturadas dentro de div com a classe `informacoes`, e a ativa é mostrada através da classe `ativa`.
+  1. HTML
+  - Contém uma estrutura básica para o carrossel e as informações dos dragões.
+  - As imagens são inseridas com a classe `imagem`, e a imagem ativa é marcada com a classe `ativa`.
+  - As informações dos dragões são estruturadas dentro de uma `div` com a classe `informacoes`, e a descrição ativa também é identificada pela classe `ativa`.
 
+  2. CSS
+  - Reset.css: O reset foi aplicado para remover as configurações padrão dos navegadores, garantindo que o estilo do carrossel seja uniforme em diferentes plataformas.
+  - Styles.css: Este arquivo contém as regras de estilo principais para o carrossel, incluindo cores, fontes e animações.
+  - Responsivo.css: Foram incluídas as regras de estilo para garantir que o carrossel seja totalmente responsivo, adaptando-se a diferentes tamanhos de tela, em diferentes     dispositivos.
 
-
-
-
-
-
-### 📌 Proposta do projeto:
-
-O evento ocorreu do 05/08 ao 11/08, onde foi feito, além das lives sobre carreira, três aulas utilizando HTML, CSS e JavaScript.
-
-A proposta foi a construção de um carrossel com o tema dos dragões de House of the Dragon. sendo a primeira aula a apresentação de conceitos e prática do HTML, a segunda aula de CSS e a terceira aula de JavaScript. 
-Todo o código é composto por comentários feitos por mim, a partir das aulas, para estudo. Não pretendo apagar. 
-O JS não está refatorado, pois comprometeria meus comentários. 
+  3. JavaScript
+  - Index.js: Este arquivo controla a lógica do carrossel, permitindo a navegação entre as imagens e a atualização das informações correspondentes.
 
 <br>
 
-### 📌 Linguagens utilizadas:
+ ## 📌 Linguagens utilizadas
 
-![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JS](https://img.shields.io/badge/-JavaScript-fffd09?style=for-the-badge&logo=javascript&logoColor=black)
-
-<br>
-
-### 📌 Editor utilizado:
-
-![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge)
+![HTML][1]
+![CSS][2]
+![JS][3]
 
 <br>
 
-### 📌 Visualizar o projeto:
+## 📌 Editor de código utilizado
 
-[Clique aqui!](https://danvasquesc.github.io/projeto-carrossel-devemdobro/)
+![VS Code][4]
+
+<br>
+
+## 📌 Visualizar o projeto
+A página está hospedada no GitHub Pages, que é um serviço que permite hospedar sites estáticos diretamente a partir de um repositório GitHub. É ideal para criar e publicar sites pessoais, blogs e portfólios.
+
+[Clique aqui para visualizar!][5]
+
+
+[1]: https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[2]: https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[3]: https://img.shields.io/badge/-JavaScript-fffd09?style=for-the-badge&logo=javascript&logoColor=black
+[4]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge
+[5]: https://danvasquesc.github.io/projeto-carrossel-devemdobro/
 
 ---
 
