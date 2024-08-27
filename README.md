@@ -53,6 +53,12 @@ A página está hospedada no GitHub Pages, que é um serviço que permite hosped
 
 [Clique aqui para visualizar!][5]
 
+<br>
+
+## 📌 Considerações Finais
+O acompanhamento das lives e a prática foi uma valiosa experiência de desenvolvimento web, onde foram aplicados conceitos fundamentais de HTML, CSS e JavaScript na criação de uma interface responsiva e interativa. Através da construção de um carrossel temático inspirado em House of the Dragon, o projeto reforçou habilidades em animação e manipulação de DOM, além de integrar elementos culturais populares ao aprendizado técnico. 
+O projeto possui muitos comentários, os quais não irei apagar, pois foram feitos por mim como anotação e usarei para estudo.
+
 
 [1]: https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [2]: https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
