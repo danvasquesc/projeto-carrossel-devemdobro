@@ -1,4 +1,4 @@
-# :open_file_folder: Projeto Carrossel de Dragões. 
+# :open_file_folder: Projeto Carrossel de Dragões
 <br>
 
 ## 📌 Introdução
@@ -8,6 +8,15 @@ O projeto foi desenvolvido durante as lives da "Semana do Zero ao Programador Co
 
 ## 📌 Objetivo
 O objetivo do carrossel é exibir imagens de dragões acompanhadas de informações detalhadas sobre cada um deles. A principal funcionalidade inclui a visualização das imagens em um formato de carrossel, permitindo que o usuário navegue entre os dragões e visualize as descrições correspondentes. O carrossel foi projetado para melhorar a experiência do usuário com animações e uma interface responsiva.
+
+<br>
+
+ ## 📌 Ferramentas utilizadas
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Vscode](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 <br>
 
@@ -34,37 +43,16 @@ O objetivo do carrossel é exibir imagens de dragões acompanhadas de informaç�
 
 <br>
 
- ## 📌 Linguagens utilizadas
-
-![HTML][1]
-![CSS][2]
-![JS][3]
-
-<br>
-
-## 📌 Editor de código utilizado
-
-![VS Code][4]
-
-<br>
-
 ## 📌 Visualizar o projeto
 A página está hospedada no GitHub Pages, que é um serviço que permite hospedar sites estáticos diretamente a partir de um repositório GitHub. É ideal para criar e publicar sites pessoais, blogs e portfólios.
 
-[Clique aqui para visualizar!][5]
+[Clique aqui para visualizar!](https://danvasquesc.github.io/projeto-carrossel-devemdobro/)
 
 <br>
 
 ## 📌 Considerações Finais
 O acompanhamento das lives e a prática foi uma valiosa experiência de desenvolvimento web, onde foram aplicados conceitos fundamentais de HTML, CSS e JavaScript na criação de uma interface responsiva e interativa. Através da construção de um carrossel temático inspirado em House of the Dragon, o projeto reforçou habilidades em animação e manipulação de DOM, além de integrar elementos culturais populares ao aprendizado técnico. 
 O projeto possui muitos comentários, os quais não irei apagar, pois foram feitos por mim como anotação e usarei para estudo.
-
-
-[1]: https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-[2]: https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-[3]: https://img.shields.io/badge/-JavaScript-fffd09?style=for-the-badge&logo=javascript&logoColor=black
-[4]: https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge
-[5]: https://danvasquesc.github.io/projeto-carrossel-devemdobro/
 
 ---
 
